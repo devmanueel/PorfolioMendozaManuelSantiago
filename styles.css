@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+li{
+    list-style: none;
+
+}
+nav.navbar{
+    background-color: rgb(1, 8, 39);
+    z-index: 100;
+}
+
+.nav-link:hover{
+    background-color: rgb(54, 27, 161);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.navbar-toggler{
+    color: white !important;
+    border: none !important;
+}
+
+.icono{
+    width: 8rem !important;
+
+}
+.container a{
+    text-decoration: none;
+}
+p.logo{
+    font-family: Tangerine;
+    color: white;
+    font-size: 33px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+p.logo:hover{
+    transition: 0.5s;
+    text-shadow: 
+    0 0 5px rgba(0, 178, 255, 1),
+    0 0 10px rgba(0, 178, 255, 1),
+    0 0 20px rgba(0, 178, 255, 1),
+    0 0 40px rgba(38, 104, 127, 1),
+    0 0 80px rgba(38, 104, 127, 1),
+    0 0 90px rgba(38, 104, 127, 1),
+    0 0 100px rgba(38, 104, 127, 1),
+    0 0 140px rgba(38, 104, 127, 1),
+    0 0 180px rgba(38, 104, 127, 1);
+    cursor:  pointer;
+}
+#jumbotron{
+    width: 100%;
+    height: 100vh !important;
+
+}
+#jumbotron .container{
+    height: 100%;
+    
+}
+#jumbotron h6{
+    letter-spacing: 2px;
+}
+#jumbotron .sosme a{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* mis trabajos */
+#works{
+    background-color: rgb(1, 8, 39);
+    width: 100%;
+}
+#works img{
+    width: 100% !important; 
+    transition: transform .5s;
+}
+
+#works img:hover{
+    transform: scale(1.03);
+    
+}
+
+/* Habilidades */
+/* Conocimientos en General */
+#skills{
+    width: 100%;
+ 
+}
+.titulo__habilidad{
+    color: #fff;
+}
+
+#skills .col-md i{
+    font-size: 8rem !important;
+}
+
+#skills .col-md h5{
+    color: #fff;
+}
+#skills .col-md .shadow{
+    text-align: center;
+    transition: transform .5s;
+    background-color: #0D1B2A !important;
+}
+
+#skills .col-md .shadow:hover{
+    box-shadow: #007bff;
+    transition: 0.5s;
+    text-shadow: 
+    0 0 5px rgba(0, 178, 255, 1),
+    0 0 10px rgba(0, 178, 255, 1),
+    0 0 20px rgba(0, 178, 255, 1),
+    0 0 40px rgba(38, 104, 127, 1),
+    0 0 80px rgba(38, 104, 127, 1),
+    0 0 90px rgba(38, 104, 127, 1),
+    0 0 100px rgba(38, 104, 127, 1),
+    0 0 140px rgba(38, 104, 127, 1),
+    0 0 180px rgba(38, 104, 127, 1);
+    cursor:  pointer;
+}
+#skills .col-md .shadow:hover{
+    transform: translateY(-.5rem);
+    cursor: pointer;
+}
+#skills .col-md .shadow {
+    height: 170px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#works img {
+    width: 100% !important;
+    height: 200px; /* o lo que te guste */
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+/* ------------------- */
+/* Sección de habilidades con fondo */
+#skills {
+    width: 100%;
+    position: relative;
+    padding: 2rem 0;
+    background-image: url('img/imagebackgraund.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Capa semitransparente para mejor legibilidad */
+#skills::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 0;
+}
+
+/* Contenido sobre el fondo */
+#skills .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Tarjetas de habilidades */
+#skills .col-md .shadow {
+    height: 170px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform .5s;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+}
+
+#skills .col-md i {
+    font-size: 4rem !important; 
+    margin-bottom: 0.5rem;
+}
+
+#skills .col-md .shadow:hover {
+    transform: translateY(-.5rem);
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Ajuste para imágenes SVG */
+#skills .icono {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+/* Títulos */
+#skills h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.titulo__skills{
+    color: 	#E0E1DD !important; 
+}
+/* Fin de estilos para conocimiento en geenral */
+
+
+
+/* Acerca de mi */
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(img/pexels-pixabay-276452.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+}
+.sobremi{
+    background-color: 	#0D1B2A;
+    color: #fff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col
+{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: #1CB698;
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+
+
+
+/* SECCION S K I L L S */
+.skills{
+    background-color: #252A2E;
+    color: #fff ;
+    padding: 50px 20px;
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    color: #E0E1DD;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.skills .skill .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 81%;}
+}
+
+.skills .skill .drupal{
+    width: 0%;
+    animation: 2s drupal forwards;
+}
+@keyframes drupal {
+    0%{width: 0%;}
+    100%{width: 55%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .proyect{
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+@keyframes proyect {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+/* SECCION CURRICULUM */
+.curriculum{
+    background-color: #0D1B2A;
+    color: #fff;
+    padding: 50px 20px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.curriculum .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.curriculum .fila .izquierda{
+    border-right: 2px solid #252A2E;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #252A2E;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+    color: #1CB698;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item .fecha{
+    display: block;
+    color: #1CB698;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid #1CB698;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #1CB698;
+    margin-left: 20px;
+}
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+/* Contanto */
+.contacto{
+    background-image: url(img/contact_bg.png);
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    width: 100%;
+}
+.contacto .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    padding: 20px;
+    max-swidth: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contacto .col .info ul{
+    list-style: none;
+}
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+}
+.contacto .col .info ul li i{
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* Seccion footer */
+footer{
+    width: 100%;
+    background: rgb(1, 8, 39);
+}
+
+.typed-element {
+    display: inline-block;
+    min-height: 1em; 
+    color: #007bff; 
+}
+
+
+
+/* Contenedor de la sección de presentación */
+#jumbotron {
+    position: relative; 
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden; 
+  }
+  
+  /* Fondo animado de partículas (solo dentro de jumbotron) */
+  #jumbotron #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0; 
+    background: #0f0c29; 
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+  }
+  
+  /* Contenido que va sobre el fondo animado */
+  #jumbotron .content-overlay {
+    position: relative; 
+    z-index: 1; 
+    color: white; 
+  }
+  
+  /* Asegura que el texto sea legible */
+  #jumbotron h1, 
+  #jumbotron h3, 
+  #jumbotron h6 {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+
+  /* Seccion Video*/
+  /* Estilos para la sección de video */
+#video-section {
+    position: relative;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    overflow: hidden;
+  }
+  
+  #video-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .video-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .tech-icons {
+    margin-top: 2rem;
+  }
+  
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech-item span {
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #4e54c8;
+  }
+  
+  .z-index-1 {
+    position: relative;
+    z-index: 1;
+  }
+
+
+
+
+  /* SECCION SKILLS - Versión corregida */
+.skills {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+    position: relative;
+}
+
+/* Capa de contenido - asegura que esté sobre cualquier fondo */
+.skills .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+    z-index: 2; 
+}
+
+/* Títulos principales */
+.skills h2.titulo__skills {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    opacity: 1 !important; 
+}
+
+/* Subtítulos */
+.skills .subtitulo__skills {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    color: #E0E1DD !important;
+    opacity: 1 !important;
+}
+
+/* Textos de habilidades */
+.skills .item__skills {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff !important; 
+    opacity: 1 !important;
+}
+
+/* Porcentajes */
+.skills .barra-skill span {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Elimina cualquier opacidad heredada */
+.skills * {
+    opacity: 1 !important;
+}
+
+/* Si hay un fondo que está causando el efecto opaco */
+.skills::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7); 
+    z-index: 1;
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+
+    .skills .fila{
+        display: block;
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) { /* Tablets */
+    #jumbotron img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) { /* Móviles grandes */
+    #jumbotron img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) { /* Móviles pequeños */
+    #jumbotron img {
+        width: 150px;
+    }
+}
+footer .redes{
+    margin-bottom: 20px;
+    
+}
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 42px;
+    height: 10px;
+    line-height: 20px;
+    margin: 40px 5px;
+    font-size: 25px;
+    transition: .3s;
+}
